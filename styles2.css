@@ -1,0 +1,87 @@
+body{background-color: rgb(221, 162, 172);
+}
+
+p.port_folio{margin-top: 0px;
+text-align: right;}
+span.work{margin-right: 10px;
+color: rgb(80, 14, 64);}
+span.skills{margin-right: 10px;
+color:  rgb(80, 14, 64);}
+span.about{margin-right: 10px;
+color:  rgb(80, 14, 64);}
+input.letstalk{color:  rgb(80, 14, 64);
+border: solid;
+border-color: white;
+background-color: white;
+padding: 4px 10px 4px 10px;
+border-radius: 30px;}
+
+
+h1{border-style: solid;
+border-color:  rgb(230, 181, 189);
+background-color: rgb(230, 181, 189);
+margin-top: 40px;
+border-radius: 20px;
+padding: 10px 10px 10px 10px;
+margin-right: 300px;
+margin-left: 300px;
+color: rgb(172, 7, 7);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+p.about{text-align: center;
+    color: rgb(172, 7, 7) ;
+    font-size: 20px;
+    font-family: 'Times New Roman',;
+    margin-bottom: 30px;
+    margin-right: 220px;
+
+}
+input.view{border: solid;
+padding: 10px 10px 10px 10px;
+border-radius: 40px;
+background-color: white;
+color: rgb(80, 14, 64);
+border-color: white;
+text-align: center;
+margin-left: 360px;}
+
+input.send{border: solid;
+padding: 10px 10px 10px 10px;
+border-radius: 40px;
+background-color: white;
+color: rgb(80, 14, 64);
+border-color: white;
+margin-left: 30px;
+text-align: center;}
+span.pfp{font-size: 30px;
+border-style: double;
+border-radius: 120px;
+padding: 60px 60px 60px 60px;
+background-color: rgb(189, 27, 27);
+margin-left: 80px;
+font-size: 70px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
+/*div{
+    width: 200px;
+    max-width: 420px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 6px 6px 6px 6px;
+    background: linear-gradient(180deg, #fff, #ffecec);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border: 1px solid rgba(172,7,7,0.15);
+    color: rgb(80,14,64);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 500px;
+    text-align: center;
+    margin-top: 0;
+    color: rgb(172,7,7);
+}*/
+
+
+    
+
+
