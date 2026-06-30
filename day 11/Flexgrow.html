@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Grow</title>
+    <style>
+        .container{
+            display: flex;
+            background-image: linear-gradient(rgb(255, 199, 199) 20%,rgb(238, 138, 154) 60%);
+            height: 400px;
+        }
+        .container div{
+            background-color: white;
+            color: rgb(201, 139, 149);
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+
+        }
+        .container2 {
+            display: flex;
+            background-image: linear-gradient(rgb(255, 199, 199) 20%,rgb(238, 138, 154) 60%);
+        }
+        .container2 div{
+            background-color: white;
+            color: rgb(201, 139, 149);
+            width: 200px;
+            height: 50px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>The Flex Shrink Property</h1>
+    <div class="container2">
+        <div style="flex-shrink: 1;">Furniture</div>
+        <div style="flex-shrink: 10;">Transportation</div>
+        <div style="flex-shrink: 3;">Groceries</div>
+    </div><br><br>
+
+    <h1>The Flex Grow Property</h1>
+    <div class="container">
+        <div style="flex-grow: 1;">Furniture</div>
+        <div style="flex-grow: 2;">Transportation</div>
+        <div style="align-self: center;">Groceries</div>
+    </div>
+</body>
+</html>

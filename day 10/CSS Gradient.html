@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Gradients</title>
+    <style>
+        #Linear1{
+            height: 200px;
+            background-color: red;
+            background-image: linear-gradient(to bottom,red,yellow);
+        }
+        #linear2{
+            height: 200px;
+            background-color: red;
+            background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+        }
+        #diagonal1{
+            height: 200px;
+            background-color: red;
+            background-image: repeating-linear-gradient(45deg,red 9%,yellow 5%,green);
+        }
+    </style>
+</head>
+<body>
+    <h3>The css gradient functions help us to display transitions between two or more colours within an element</h3>
+    <h4>There are three kinds of gradients</h4>
+    <ul><b>Linear Gradients</b>- For linear gradients, the colour transition goes down, up, left, right, diagonally</ul>
+    <ul><b>Radial Gradients</b>- The colour transition goes out from the central point</ul>    
+    <ul><b>Conic Gradients</b>- The colour transition is rotated around a central point</ul>
+    <div id="Linear1"></div>
+    <div id="linear2"></div>
+    <div id="diagonal1"></div>    
+</body>
+</html>

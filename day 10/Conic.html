@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conic Gradient</title>
+    <style>
+        #conic1{
+            height: 150px;
+            width: 200px;
+            background-image: conic-gradient(red,yellow,green)
+        }
+        #conic2{
+            height: 150px;
+            width: 200px;
+            background-image: conic-gradient(tan,purple,gold,indigo,pink,white,
+            magenta,purple,violet,coral,grey,lightblue,chocolate,royalblue,brown);
+            border-radius: 50%;
+        }
+        #conic3{
+            height: 200px;
+            width: 200px;
+            background-image: repeating-conic-gradient(red 0deg 10deg,yellow 10deg 20deg,green 20deg 30deg);
+            border-radius: 60%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conic Gradient - Three colours</h1>
+    <div id="conic1"></div>
+    <div id="conic2"></div>
+    <div id="conic3"></div>
+</body>
+</html>

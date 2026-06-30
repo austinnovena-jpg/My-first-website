@@ -7,7 +7,7 @@ background-color:rgb(156, 232, 255);
 border-color: rgb(156, 232, 255);
 border-radius: 20px;}*/
 
-p.port_folio{margin-top: 0px;
+p.port_folio{margin-top: 20px;
 text-align: right;}
 span.work{margin-right: 10px;
 color: white;}
@@ -20,7 +20,7 @@ color:  white;}
 input.letstalk{color:  white;
 border: solid;
 border-color: rgb(21, 156, 197);
-background-color: rgb(21, 156, 197);
+background-image: linear-gradient(rgb(21, 156, 197), white);
 padding: 4px 10px 4px 10px;
 border-radius: 30px;}
 
@@ -34,7 +34,7 @@ border-radius: 20px;
 padding: 10px 10px 10px 10px;
 margin-right: 300px;
 margin-left: 300px;
-color:  rgb(21, 156, 197);
+color:rgb(21, 156, 197);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 p.about{text-align: center;
     color: white ;
@@ -44,10 +44,17 @@ p.about{text-align: center;
     margin-right: 400px;
 
 }
+ol{color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman',;
+    margin-bottom: 0px;
+    margin-left: 300px;
+
+}
 input.view{border: solid;
 padding: 10px 10px 10px 10px;
 border-radius: 40px;
-background-color: rgb(21, 156, 197);
+background-image: linear-gradient(rgb(21, 156, 197), white);
 color: white;
 border-color:  rgb(21, 156, 197);
 text-align: center;
@@ -56,22 +63,21 @@ margin-left: 320px;}
 input.send{border: solid;
 padding: 10px 10px 10px 10px;
 border-radius: 40px;
-background-color: white;
-color: rgb(80, 14, 64);
-border-color: white;
+background-image: linear-gradient(rgb(21, 156, 197), white);
+color: white;
+border-color:rgb(21, 156, 197);
 margin-left: 30px;
 text-align: center;}
 span.pfp{font-size: 30px;
 border-style: double;
 border-radius: 120px;
-border-color: rgb(21, 156, 197);
+border-color:rgb(21, 156, 197);
 padding: 60px 60px 60px 60px;
-background-color:  rgb(21, 156, 197);
+background-color: rgba(21, 156, 197, 0.6);
 color: white;
 margin-left: 80px;
 font-size: 70px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-align: center;
 }
 
 /*div{

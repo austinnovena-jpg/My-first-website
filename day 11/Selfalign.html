@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self align</title>
+    <style>
+        .container{
+            background-color: red;
+            display: flex;
+            height: 200px;
+        }
+        .container div{
+            background-color: white;
+            color: rgb(201, 139, 149);
+            width: 200px;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Self-align Property</h1>
+    <div class="container">
+        <div style="align-self: flex-start;">Top</div>
+        <div style="align-self: center;">Center</div>
+        <div style="align-self: flex-end;">Bottom</div>
+        <div style="align-self: flex-start;">Top</div>
+        <div style="align-self: center;">Center</div>
+        <div style="align-self: flex-end;">Bottom</div>
+        <div style="align-self: flex-start;">Top</div>
+        <div style="align-self: center;">Center</div>
+    </div>
+</body>
+</html>
